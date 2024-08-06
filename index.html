@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-title">Snake Game</div>
+    <div class="body">
+        <div class="information">
+            <input type="text" id="username" placeholder="Enter your name">
+        </div>
+        <div id="controls" class="controls">
+            <button id="startButton" onclick="startGame()">Play</button>
+            <button id="s" onclick="setSpeed('Easy')" style="display: none;">Easy</button>
+            <button id="m" onclick="setSpeed('Medium')" style="display: none;">Medium</button>
+            <button id="f" onclick="setSpeed('Hard')" style="display: none;">Hard</button>
+        </div>
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">HiScore: 0</div>
+        <div id="board" class="gamename"></div>
+        <img id="mygif" src="9a9ce43049590cee3c9e011dfcea78f5.gif" alt="GIF">
+        <img id="mygif2" src="1e7b9720ad69fa3acdb77cf44c68a1ae.gif" alt="GIF">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
